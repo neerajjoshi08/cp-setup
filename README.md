@@ -41,3 +41,7 @@ Note: `cmd` can be changes as per the OS.
 ]
 ```
 
+# Resources:
+1. https://www.geeksforgeeks.org/setting-up-sublime-text-for-cpp-competitive-programming-environment/
+2. https://blog.codingblocks.com/2019/setting-up-a-c-competitive-programming-environment/
+
