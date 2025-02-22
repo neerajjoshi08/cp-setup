@@ -41,6 +41,12 @@ Note: `cmd` can be changes as per the OS.
 ]
 ```
 
+
+### Linux
+To compile the header <bits/stdc++.h>, we need to compile this header using below steps:
+1. Go to dir: `/usr/include/x86_64-linux-gnu/c++/13/bits`; Here `13` is the version
+2. Now, compile the file using command: `g++ -std=c++17 stdc++.h`
+
 # Resources:
 1. https://www.geeksforgeeks.org/setting-up-sublime-text-for-cpp-competitive-programming-environment/
 2. https://blog.codingblocks.com/2019/setting-up-a-c-competitive-programming-environment/
