@@ -47,6 +47,11 @@ To compile the header <bits/stdc++.h>, we need to compile this header using belo
 1. Go to dir: `/usr/include/x86_64-linux-gnu/c++/13/bits`; Here `13` is the version
 2. Now, compile the file using command: `g++ -std=c++17 stdc++.h`
 
+
+### VS code
+In VS code, we can split the window as code, and input/output as a separate vertical window.
+Copy the tasks files into `.vscode`, and run the build using `Ctrl + Shift + b`
+
 # Resources:
 1. https://www.geeksforgeeks.org/setting-up-sublime-text-for-cpp-competitive-programming-environment/
 2. https://blog.codingblocks.com/2019/setting-up-a-c-competitive-programming-environment/
