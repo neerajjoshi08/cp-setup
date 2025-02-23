@@ -1,0 +1,51 @@
+{
+	"Initialize_code": {
+		"prefix": "cp-init",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"using namespace std;\n",
+			
+			"int main() {",
+			"\tios::sync_with_stdio(false);",
+			"\tcin.tie(nullptr);\n",
+			
+			"\tint tc; cin >> tc;",
+			"\twhile (tc-- > 0) {",
+			"\t\t$0",
+			"\t\tcout << \"\\n\";",
+			"\t}",
+			"\treturn 0;",
+			"}\n",
+				],
+		"description": "Init"
+	},
+	"Default": {
+		"prefix": "default",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"using namespace std;\n",
+			
+			"int main() {",
+			"\t$0",
+			"\treturn 0;",
+			"}\n",
+		],
+		"description": "default"
+	},
+	"cp-init-without-tc": {
+		"prefix": "cp-init-without-tc",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"using namespace std;\n",
+			
+			"int main() {",
+			"\tios::sync_with_stdio(false);",
+			"\tcin.tie(nullptr);\n",
+			
+			"\t$0",
+			"\treturn 0;",
+			"}\n",
+				],
+		"description": "Init"
+	},
+}
